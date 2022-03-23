@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-AlexanderC_04.png"
+      type="image/x-icon"
+    />
+    <title>Tic Tac Toe game | AlexanderC_04</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="info">
+        <div class="player-info">
+          <div class="player">
+            <h2 class="player__name player1__name">Player 1</h2>
+            <div class="player__symbol-x player__symbol"></div>
+            <p class="player__score player1__score">0</p>
+          </div>
+
+          <div class="tie__score">
+            <h2 class="player__name">Tie</h2>
+            <p class="player__score tie-score">0</p>
+          </div>
+          <div class="player">
+            <h2 class="player__name player2__name">Player 2</h2>
+            <div class="player__symbol-o player__symbol"></div>
+            <p class="player__score player2__score">0</p>
+          </div>
+        </div>
+        <div class="turn-info">
+          <h3 class="turn">Turn</h3>
+          <div class="turn__symbol turn__symbol-x"></div>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <div class="board">
+        <div class="overlay-board"></div>
+        <div class="winner-announcement">
+          <h5 class="winner-title">Winner:</h5>
+          <p class="round-winner">Player 1</p>
+        </div>
+        <div class="overlay-board-transparent"></div>
+        <div class="board__box box-0"></div>
+        <div class="board__box box-1"></div>
+        <div class="board__box box-2"></div>
+        <div class="board__box box-3"></div>
+        <div class="board__box box-4"></div>
+        <div class="board__box box-5"></div>
+        <div class="board__box box-6"></div>
+        <div class="board__box box-7"></div>
+        <div class="board__box box-8"></div>
+      </div>
+    </main>
+    <div class="new-game__container">
+      <button class="new-game" type="button">New Game</button>
+    </div>
+    <div class="form active">
+      <form class="form__new-game">
+        <h2 class="form__description-title">New Game</h2>
+
+        <div class="form__item form__player-1">
+          <label class="form__label" for="player-1">Player X Name:</label>
+          <input
+            class="form__input"
+            type="text"
+            maxlength="10"
+            id="player-1"
+            name="player-1"
+            placeholder="Player 1"
+          />
+        </div>
+        <div class="form__item form__player-2">
+          <label class="form__label" for="player-2">Player O Name:</label>
+          <input
+            class="form__input"
+            type="text"
+            maxlength="10"
+            id="player-2"
+            name="player-2"
+            placeholder="Player 2"
+          />
+        </div>
+        <button id="form-submit-btn" class="form__btn" type="submit">
+          Stars Game
+        </button>
+      </form>
+    </div>
+    <div class="overlay active"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
