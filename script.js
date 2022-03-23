@@ -75,13 +75,11 @@ const gameBoard = (() => {
   const play = (position, player) => {
     let playerName = player.getName();
     gameBoardArray[position] = playerName;
-    console.log(gameBoardArray);
     statusCheck(player);
   };
   const statusCheck = (player) => {
     let playerName = player.getName();
     if (allEqual(playerName)) {
-      console.log("win");
       player.roundWon();
       printDom(player1, player2);
       printWinner("Winner:", playerName);
@@ -96,10 +94,7 @@ const gameBoard = (() => {
         undefined,
         undefined,
       ];
-      console.log(gameBoardArray);
-      return true;
     } else if (!gameBoardArray.includes(undefined)) {
-      console.log("tie");
       printWinner("Tie", null);
       player1.roundTie();
       player2.roundTie();
@@ -115,12 +110,7 @@ const gameBoard = (() => {
         undefined,
         undefined,
       ];
-      console.log(gameBoardArray);
-
-      return true;
     } else {
-      console.log("no win");
-      return false;
     }
   };
   function allEqual(playerName) {
@@ -240,8 +230,6 @@ function getUserInput(event) {
     player1Name = player1Input.value;
     player2Name = player2Input.value;
   }
-  console.log(player1Name);
-  console.log(player2Name);
   createPlayer(player1Name, player2Name);
   inactiveForm();
   clearForm();

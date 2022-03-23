@@ -223,7 +223,7 @@ header {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 6;
-  background-color: rgb(26, 55, 77);
+  background-color: rgb(80, 95, 117);
   padding: 2rem;
   width: min(700px, 95%);
   border-radius: 1rem;
@@ -272,10 +272,10 @@ header {
   width: min(200px, 90%);
   align-self: center;
   border: none;
-  background-color: rgb(105, 152, 171);
+  background-color: rgb(151, 153, 156);
 }
 .form__btn:hover {
-  background-color: rgb(177, 208, 224);
+  background-color: rgb(198, 199, 212);
   cursor: pointer;
 }
 .form__btn:active {

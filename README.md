@@ -20,8 +20,8 @@ Build of a full Library design. Practice project for JS constructor.
 
 ### Links
 
-- Solution URL: (https://github.com/AlexanderC04/library.git)
-- Live Site URL: (https://alexanderc04.github.io/library/)
+- Solution URL: (https://github.com/AlexanderC04/tic-tac-toe.git)
+- Live Site URL: (https://alexanderc04.github.io/tic-tac-toe/)
 
 ## Author
 
