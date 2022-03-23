@@ -1,10 +1,10 @@
 # Library
 
-This is a solution to the [PROJECT: LIBRARY](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/library)
+This is a solution to the [PROJECT: TIC TAC TOE](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/tic-tac-toe)
 
 ## Description
 
-Build of a full Library design. Practice project for JS constructor.
+make a Tic Tac Toe game you can play in your browser!. Practice project for JS Factory Functions and the Module Pattern.
 
 ### Screenshot
 
