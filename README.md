@@ -4,7 +4,7 @@ This is a solution to the [PROJECT: TIC TAC TOE](https://www.theodinproject.com/
 
 ## Description
 
-make a Tic Tac Toe game you can play in your browser!. Practice project for JS Factory Functions and the Module Pattern.
+Make a Tic Tac Toe game you can play in your browser!. Practice project for JS Factory Functions and the Module Pattern.
 
 ### Screenshot
 
